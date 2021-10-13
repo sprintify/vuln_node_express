@@ -9,7 +9,7 @@ jobs:
     name: Build and Test
     runs-on: ubuntu-20.04
     steps:
-      - name: Check code
+      - name: Checkout code
         uses: action/checkout@v2
       - name: Install Node 14.x
         uses: action/setup-node@v2
